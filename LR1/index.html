@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab1</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header"><h1 class="title">Список задач</h1></header>
+    <main class="main">
+      <div class="container">
+        <div class="new-task">
+          <h2 class="title new-task__title">Новая задача</h2>
+          <form action="#" class="new-task__form">
+            <input
+              class="new-task__input"
+              type="text"
+              placeholder="Название задачи..."
+            />
+            <button class="new-task__button btn-reset">+ Добавить</button>
+          </form>
+        </div>
+        <div class="tasks-area">
+          <ul class="tasks-area__list list-reset">
+            <li class="tasks-area__item">
+              <h3 class="title tasks-area__title title__backlog">Бэклог</h3>
+              <ul class="tasks__list tasks__backlog list-reset">
+                <li class="tasks__item">Выучить JS</li>
+                <li class="tasks__item">Выучить React</li>
+                <li class="tasks__item">Сделать домашку</li>
+              </ul>
+            </li>
+            <li class="tasks-area__item">
+              <h3 class="title tasks-area__title title__inProgress">
+                В процессе
+              </h3>
+              <ul class="tasks__list tasks__inProgress list-reset">
+                <li class="tasks__item">Выпить смузи</li>
+                <li class="tasks__item">Полить воды</li>
+              </ul>
+            </li>
+            <li class="tasks-area__item">
+              <h3 class="title tasks-area__title title__ready">Готово</h3>
+              <ul class="tasks__list tasks__ready list-reset">
+                <li class="tasks__item">Позвонить маме</li>
+                <li class="tasks__item">Погладить кота</li>
+              </ul>
+            </li>
+            <li class="tasks-area__item">
+              <h3 class="title tasks-area__title title__basket">Корзина</h3>
+              <ul class="tasks__list tasks__basket list-reset">
+                <li class="tasks__item">Сходить погулять</li>
+                <li class="tasks__item">Прочитать Войну и Мир</li>
+              </ul>
+              <button class="resetBtn btn-reset">X Очистить</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
