@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("global.css");
+
+@import url("header.css");
+
+@import url("newTask.css");
+
+@import url("tasksArea.css");
+
+@import url("resetBtn.css");
+
+@import url("task.css");
+
+@import url("loader.css");
