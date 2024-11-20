@@ -1,0 +1,48 @@
+.tasks__item {
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: .5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: -5px 0 0 rgb(93, 93, 93);
+
+  gap: 1rem;
+}
+
+.tasks-area__title.title__backlog {
+  color: rgb(85, 85, 85);
+  background-color: rgba(85, 85, 85, .3);
+}
+
+.tasks__backlog .tasks__item {
+  box-shadow: -5px 0 0 rgb(93, 93, 93);
+}
+
+.tasks-area__title.title__inProgress {
+  color: rgb(85, 147, 255);
+  background-color: rgba(85, 147, 255, .3);
+}
+
+.tasks__inProgress .tasks__item {
+  box-shadow: -5px 0 0 rgb(85, 147, 255);
+}
+
+.tasks-area__title.title__ready {
+  color: rgb(96, 255, 68);
+  background-color: rgba(96, 255, 68, .3);
+}
+
+.tasks__ready .tasks__item {
+  box-shadow: -5px 0 0 rgb(96, 255, 68);
+}
+
+.tasks-area__title.title__basket {
+  color: rgb(254, 92, 92);
+  background-color: rgba(254, 92, 92, .3);
+}
+
+.tasks__basket .tasks__item {
+  box-shadow: -5px 0 0 rgb(254, 92, 92);
+}

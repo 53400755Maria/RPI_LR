@@ -1,0 +1,23 @@
+.tasks-area__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tasks-area__item {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  max-width: 250px;
+}
+
+.tasks-area__title {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: rgba(254, 92, 92, 1);
+  background-color: rgba(254, 92, 92, .3);
+}
